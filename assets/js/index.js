@@ -10,6 +10,8 @@
 // WHEN the game is over
 // THEN I can save my initials and score
 
-var taskIdCounter = 0;
-
-var 
+var quizHandler = function (event) {
+  event.preventDefault();
+  var timerStart = document.querySelector
+}
+ 

@@ -7,6 +7,7 @@
 header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   background-color: lightblue;
   height: 100px;
   margin: 20px 20px;
@@ -14,9 +15,26 @@ header {
   border-radius: 10px;
 }
 
-h2 {
+header a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
   color: darkblue;
-  margin-left: 20px;;
+  margin-left: 24px;;
+}
+
+header a:hover {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  margin-left: 24px;;
+}
+
+header h3 {
+  color: #000;
+  margin-right: 24px;
+
 }
 
 .inner-display {
@@ -50,7 +68,7 @@ h2 {
   margin: 0 150px;
 }
 
-.start-quiz {
+#start-quiz {
   background-color: lightblue;
   color: darkblue;
   border: 2px solid darkslategray;
@@ -68,5 +86,20 @@ h2 {
   margin: 20px;
   padding: 10px 10px;
   font-size: 22px;
-  
+}
+
+#quiz {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+#question {
+  align-items: center;
+  color: darkblue;
+}
+
+#choices {
+  align-items: flex-start;
 }

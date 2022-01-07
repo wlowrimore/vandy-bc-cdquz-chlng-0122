@@ -10,7 +10,8 @@
 <body>
   
   <header>
-    <h2>View High Scores</h2>
+    <a href= "hight-scores.html">View High Scores</a>
+    <h3 id= timer>Timer:<span id= "time-left">0</span></h3>
   </header>
 
   <main class= "inner-display">
@@ -19,12 +20,13 @@
       Keep in mind that if you select a wrong answer, time/points will be deducted
       in increments of 10!
     </p>
-    <button class= "start-quiz">Start Quiz</button>
-    <section/section class= "display-head">
-
+    <button id= "start-quiz">Start Quiz</button>
+    <section id= "quiz">
+      <h1 id= "question"></h1>
+      <ul id= "choices"></ul>
     </section>
-    <section/section class= "display-body">
-
+    <section id= "result">
+      <h2 id= "result-confirm"></h2>
     </section>
   </main>
    
